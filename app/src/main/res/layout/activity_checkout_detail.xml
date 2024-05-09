@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".CheckoutDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Checkout Detail"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Item:"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Method:"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Thank You For Your Transaction!"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
